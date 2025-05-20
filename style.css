@@ -7,7 +7,7 @@ nav {
   height: 8em;
   position: fixed;
   line-height: 75px;
-  background-image: linear-gradient(#000, #001);
+  background-image: linear-gradient(#564b73, #564b73);
   top: 0;
   left: 0;
   display: flex;
@@ -15,10 +15,10 @@ nav {
 
 nav .logo a {
   padding-left: 1em;
-  padding-right: 5em;
-  padding-top: 0.25em;
+  padding-right: 0.5em;
+  padding-top: 0.35em;
   float: left;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
   color: white;
   text-transform: uppercase;
@@ -43,7 +43,7 @@ nav li a{
    text-decoration: none;
 }
 nav li a:hover{
-   color: #BED4F7;
+   color: #e3dff0;
    transition: all 0.4s ease 0s;
 }
 
@@ -62,7 +62,7 @@ nav ul li a, .dropbtn {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-image: linear-gradient(#000, #001);
+    background-image: linear-gradient(#5b4f77, #584d78);
     min-width: 160px;
 }
 
@@ -84,9 +84,7 @@ nav ul li a, .dropbtn {
   flex-wrap: wrap;
   padding: 10px; 
   margin: 45px;  
-  display: inline-block;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
-  justify-content: center;
   border-radius: 18px;
 }
